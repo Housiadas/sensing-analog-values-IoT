@@ -1,6 +1,6 @@
 # sensing-analog-values-IoT
 
-Development of an embedded system using IoT principles to measure analog values of physical quantities such as temperature, humidity, soil moisture, etc. 
+Development of an embedded system using IoT principles to measure analog values of physical quantities such as temperature, humidity, soil moisture, etc. We are building our system using MQTT, which is a lightweight, publish-subscribe network protocol that transports messages between devices.
 
 ### Electronics and devices.
 * Raspberry pi 3 model B.
@@ -8,8 +8,13 @@ Development of an embedded system using IoT principles to measure analog values 
 * Barometric sensor arduino BMP180. 
 * Wireless serial transceiver module HC12.
 
+### Raspberry pi configuration.
+The raspberry pi was setted up as a MQTT broker. Eclipse Mosquitto message broker was used, which is lightweight and is suitable for use on all devices from low power single board computers to full servers.  
+
+* Raspberry pi connected to a pc via putty. 
+
 ### HC12 module and connection.
-HC-12 wireless serial communication module is a new-generation multichannel embedded wireless data transmission module. Its wireless working frequency band is 433.4-473.0MHz, multiple channels can be set, with the stepping of 400 KHz, and there are 100 channels in total. The maximum transmitting power of the module is 100mW (20dBm), the receiving sensitivity is -117dBm at a baud rate of 5,000bps in the air, and the communication distance is 1,000m in open space.
+HC-12 wireless serial communication module is a new-generation multichannel embedded wireless data transmission module. Its wireless working frequency band is 433.4-473.0MHz, multiple channels can be set, with the stepping of 400 KHz, and there are 100 channels in total. The maximum transmitting power of the module is 100mW (20dBm).
 
 * Supply voltage: 3.2V to 5.5VDC.
 * Communication distance: 1,000m in the open space.
