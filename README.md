@@ -1,6 +1,6 @@
 # sensing-analog-values-IoT
 
-Development of an embedded system using IoT principles to measure analog values of physical quantities such as temperature, humidity, soil moisture, etc.
+Development of an embedded system using IoT principles to measure analog values of physical quantities such as temperature, humidity, soil moisture, etc. 
 
 ### Electronics and devices.
 * Raspberry pi 3 model B.
@@ -20,8 +20,7 @@ HC-12 wireless serial communication module is a new-generation multichannel embe
 * Operating temperature: -40℃ to +85℃.
 
 #### Connection with Arduino.
-
-![alt text](https://raw.githubusercontent.com/Housiadas/)
+![alt text](https://raw.githubusercontent.com/Housiadas/sensing-analog-values-IoT/master/images/arduino_hc12.png)
 
 #### Connection with raspberry pi.
 * VIN – Connect to RPi 5V (PIN 4)
