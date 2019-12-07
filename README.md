@@ -1,6 +1,6 @@
 # sensing-analog-values-IoT
 
-Development of an embedded system using IoT principles to measure analog values of physical quantities such as temperature, humidity, soil moisture, etc. We are building our system using MQTT, which is a lightweight, publish-subscribe network protocol that transports messages between devices.
+Development of embedded systems using IoT principles to measure analog values of physical quantities such as temperature, humidity, soil moisture, etc. We are building our system using MQTT, which is a lightweight, publish-subscribe network protocol that transports messages between devices.
 
 ### Electronics and devices.
 * Raspberry pi 3 model B.
